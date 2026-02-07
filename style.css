@@ -1,19 +1,54 @@
-*{background-color:white;}
-h1{align="center"; color:#a83295;
-font-family:cursive;}
-p1{font-family:font-family: Georgia, serif;}
+/* Using a clean, modern font for the body */
+body {
+  background-color: #fcfafc; /* Slightly off-white for a premium feel */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #a83295;
+  font-family: 'Apple Chancery', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Note: In HTML, use <p>. There is no <p1> tag. */
+p {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
 div {
-    border: 1px solid black;
-    padding: 1px;
-    width: 100x;
-    ;
-    text-align: center;
-  }
-  h4{font-family: cursive;
-text-align: center;
-color:#a83295;}
+  background: white;
+  border: none;
+  border-radius: 12px; /* Smooth rounded corners */
+  padding: 25px;
+  max-width: 500px; /* Responsive width */
+  margin: 30px auto;
+  text-align: center;
+  /* Soft, modern depth shadow */
+  box-shadow: 0 10px 25px rgba(168, 50, 149, 0.1);
+}
+
+h4 {
+  font-family: 'Apple Chancery', cursive;
+  text-align: center;
+  color: #a83295;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Matches the div style */
+}
