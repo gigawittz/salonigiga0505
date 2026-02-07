@@ -48,8 +48,9 @@ h4 {
 img {
   display: block;
   margin: 20px auto;
-  max-width: 25%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px; /* Matches the div style */
 }
+
 
